@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Kontak Kami</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <div class="container">
+            <h1>Website Berita</h1>
+            <nav>
+                <ul>
+                    <li><a href="index.html">Beranda</a></li>
+                    <li><a href="#">Berita</a></li>
+                    <li><a href="tentang.html">Tentang</a></li>
+                    <li><a href="kontak.html">Kontak</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+    <div class="container">
+        <main>
+            <section class="contact-info">
+                <h2>Informasi Kontak</h2>
+                <p>Jika Anda memiliki pertanyaan atau membutuhkan informasi lebih lanjut, silakan hubungi kami:</p>
+                <p><strong>Email:</strong> info@beritaterkini.com</p>
+                <p><strong>Telepon:</strong> 123-456-7890</p>
+                <p><strong>Alamat:</strong> Jl. Contoh No. 123, Kota Contoh, 12345</p>
+            </section>
+            <section class="contact-form">
+                <h2>Hubungi Kami</h2>
+                <form action="submit_form.php" method="POST">
+                    <label for="name">Nama:</label>
+                    <input type="text" id="name" name="name" required>
+
+                    <label for="email">Email:</label>
+                    <input type="email" id="email" name="email" required>
+
+                    <label for="message">Pesan:</label>
+                    <textarea id="message" name="message" required></textarea>
+
+                    <input type="submit" value="Kirim">
+                </form>
+            </section>
+        </main>
+    </div>
+    <footer>
+        <div class="container">
+            <p>&copy; 2024 Berita Terkini</p>
+        </div>
+    </footer>
+</body>
+</html>
